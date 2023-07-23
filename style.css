@@ -1,0 +1,112 @@
+
+@font-face {
+    font-family:'fontIranWOFF' ;
+    src: url("./IRANSansWeb\(FaNum\).woff");
+}
+@font-face {
+    font-family:'fontIranEOT' ;
+    src: url("./IRANSansWeb\(FaNum\).eot");
+}
+
+
+:root {
+    --themColor : blueviolet
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'fontIranWOFF' , 'fontIranEOT';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--themColor);
+    direction: rtl;
+}
+.container{
+    width: 400px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px;
+}
+.container .info h1{
+    color: var(--themColor);
+    margin-bottom: 10px;
+}
+.container form{
+    margin: 15px 0 25px;
+}
+.container form :where(input , button){
+    outline: 0;
+    border: 0;
+    width: 100%;
+    border-radius: 5px;
+    margin: 5px , 0;
+    padding: 10px;
+    font-size: 17px;
+}
+.container form input{
+    border: 1px solid rgba(90, 89, 89, 0.582);
+}
+.container form button{
+    background-color: var(--themColor);
+    color: white;
+    margin-top: 5px;
+}
+.qrcod{
+    border: 1px solid rgba(90, 89, 89, 0.582);
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+.btnThem{
+    cursor: pointer;
+    padding: 9px;
+    border-radius: 11px;
+    border: 1px solid #a09292;
+    margin: 8px 0 20px;
+}
+.btnContainer{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-around;
+    border-bottom: 1px dotted #efdbdb;
+}
+.btnRed{
+    background-color:slateblue;
+}
+.btnBlue{
+    background-color:peru ;
+}
+.btnYellow{
+    background-color:teal ;
+}
+.btnGreen{
+    background-color:green ;
+}
+.btnpink{
+    background-color:crimson ;
+}
+.copy-img{
+    background-color: var(--themColor);
+    color: white;
+    margin-top: 5px;
+    outline: 0;
+    border: 0;
+    width: 100%;
+    border-radius: 5px;
+    margin: 5px , 0;
+    padding: 10px;
+    font-size: 17px;
+    display: none;
+}
+/* //////////////////adding////////////////// */
+.hidden{
+    display: none;
+}
+.active{
+    display: inline-block;
+}
