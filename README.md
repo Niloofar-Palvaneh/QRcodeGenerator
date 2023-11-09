@@ -10,6 +10,14 @@ you can change them of this web
  QR CODE PROJECTR
 </h1>
 <hr/>
+<p>
+ you can enter yor text and get Qr code
+</p>
+<hr/>
+<p>
+you can change them of this web
+</p>
+<hr/>
 Demo on Vercel 👉: 
 <br/>
  (https://q-rcode-generator.vercel.app/)
