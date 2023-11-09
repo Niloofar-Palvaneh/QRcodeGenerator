@@ -1,6 +1,6 @@
 
 <h1>
- QR CODE PROJECTR
+ QR CODE PROJECT
 </h1>
 <hr/>
 <p>
